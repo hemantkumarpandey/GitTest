@@ -37,23 +37,7 @@ let position, suc;
   }
  
   console.log(suc , position);
-  // getLocation().then((pos)=>{
-  //   positon = pos;
-  //   return setTimer(1000);
-  // }
-  // ).then(suc=>{
-   
-  // })
-  // .catch(err=>{
-  //   console.log(err);
-  // })
-   
 
-//     setTimer(2000).then(data=>{
-//     console.log('Timer Done!');
-//     });
-    
-//  console.log("Running");
 }
 
 button.addEventListener('click', trackUserHandler);
